@@ -1,0 +1,19 @@
+$(function(){
+  $(".hide").click(function(){
+    $("#gnb_wrap").hide()
+  });
+  $(".hide").click(function(){
+    $("#header2").show()
+  });
+});
+$(function(){
+  $(".show").click(function(){
+    $("#header2").hide()
+  });
+  $(".show").click(function(){
+    $("#gnb_wrap").show()
+  });
+});
+$(function(){
+	AOS.init();	
+});
